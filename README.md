@@ -1,7 +1,7 @@
 # .allstar
 
 OSPO's policies for adherence to security best practices.
-[Allstar](https://github.com/ossf/allstar) is a security-policy GitHubApp, that continously monitors organizations for adherence to security best practices, and it is installed in [this organization](https://github.com/kommitters). This repo holds the configuration necessary for all the [policies](https://github.com/ossf/allstar#policies) with its respective [actions][actions] of allstar in the org.
+[Allstar](https://github.com/ossf/allstar) is a security-policy GitHubApp, that continously monitors organizations for adherence to security best practices, and it is installed in [this organization](https://github.com/kommitters). This repo holds the configuration necessary for all the [policies][policies] with its respective [actions][actions] of allstar in the org.
 
 ## Policy configuration
 
