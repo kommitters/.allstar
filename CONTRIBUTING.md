@@ -2,7 +2,7 @@
 
 First off, thanks for taking the time to contribute, it is encouraging! 🎉🙌
 
-We want to make it as easy as possible to contribute changes that help the [.allstar][repo] all star configuration repo. There are a few guidelines that we ask contributors to follow so that we can merge your changes quickly.
+We want to make it as easy as possible to contribute changes that help the [.allstar allstar configuration repo][repo], this is a configuration repo for the good of the kommiters organization so every advice or contribution is well received. There are a few guidelines that we ask contributors to follow so that we can merge your changes quickly.
 
 ## Getting started
 
@@ -15,7 +15,7 @@ We want to make it as easy as possible to contribute changes that help the [.all
 ## Finding things to work on
 
 The first place to start is always looking over the current GitHub issues for the project you are
-interested in contributing to. Issues marked with [good first issue][good-first-issue] or [help wanted][help-wanted] are usually pretty self-contained and a good place to get started.
+interested in contributing to.
 
 If you see any issues that are assigned to a particular person or have the `Work in progress` label, it means that
 someone is currently working on that issue.

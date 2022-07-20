@@ -6,4 +6,3 @@ requireApproval: true
 approvalCount: 1
 blockForce: true
 requireSignedCommits: true
-requireStatusChecks: [{"ci", null}]
