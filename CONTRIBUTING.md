@@ -12,21 +12,11 @@ We want to make it as easy as possible to contribute changes that help the [.all
 * Fork the repository on GitHub.
 * Try to keep your local repository in a "rebased" state.
 
-## Finding things to work on
-
-The first place to start is always looking over the current GitHub issues for the project you are
-interested in contributing to.
-
-If you see any issues that are assigned to a particular person or have the `Work in progress` label, it means that
-someone is currently working on that issue.
-
-Of course, feel free to create a new issue if you think something needs to be added or fixed.
-
 ## Making changes
 
 * Create a topic branch from where you want to base your work.
-  * This is usually the `main|master` branch.
-  * Please avoid working directly on the `main|master` branch.
+  * This is usually the `main` branch.
+  * Please avoid working directly on the `main` branch.
 
 ## Submitting changes
 
@@ -36,7 +26,7 @@ Of course, feel free to create a new issue if you think something needs to be ad
 * Submit a pull request.
   * Include a descriptive [commit message][commit-msg].
   * Changes contributed via pull request should focus on a single issue at a time.
-  * Rebase your local changes against the `main|master` branch. Resolve any conflicts that arise.
+  * Rebase your local changes against the `main` branch. Resolve any conflicts that arise.
 
 At this point, you're waiting on us. We like to at least comment on pull requests within three
 business days (typically, one business day). We may suggest some changes, improvements or
@@ -49,5 +39,3 @@ alternatives.
 [repo]: https://github.com/kommitters/.allstar
 [coc]: https://github.com/kommitters/.allstar/blob/main/CODE_OF_CONDUCT.md
 [commit-msg]: https://github.com/erlang/otp/wiki/Writing-good-commit-messages
-[good-first-issue]: https://github.com/kommitters/.allstar/issues?q=label%3A%22%F0%9F%91%8B+Good+first+issue%22
-[help-wanted]: https://github.com/kommitters/.allstar/issues?q=label%3A%22%F0%9F%86%98+Help+wanted%22
