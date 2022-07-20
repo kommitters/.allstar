@@ -1,11 +1,11 @@
 # .allstar
 
 OSPO's policies for adherence to security best practices.
-[Allstar](https://github.com/ossf/allstar) is a security-policy GitHubApp, that continously monitors organizations for adherence to security best practices, and it is installed in [this organization](https://github.com/kommitters). This repo holds the configuration necessary for all the [policies][policies] with its respective [actions][actions] of allstar in the org.
+[Allstar](https://github.com/ossf/allstar) is a security-policy GitHubApp, that continuously monitors organizations for adherence to security best practices, and it is installed in [this organization](https://github.com/kommitters). This repo holds the configuration necessary for all the [policies][policies] with its respective [actions][actions] of allstar in the org.
 
-In the [allstar.yaml][allstar_yaml] file we have the general configuration for allstar, like the strategy to be used, the repos to be included or excluded and some other repo level configurations.
+In the [allstar.yaml][allstar_yaml] file we have the general configuration for allstar, like the strategy to be used, the repos to be included or excluded, and some other repo level configurations.
 
-If you need to configure allstar for your own organization you can fork this repo and modify the `yaml` files to match your needs, remember that this repo has to remain with this name `.allstar`, for more information read [Allstar installation][installation_options].
+If you need to configure allstar for your own organization you can fork this repo and modify the `yaml` files to match your needs, remember that this repo has to remain with the name `.allstar`, for more information read [Allstar installation][installation_options].
 
 ## Policy configuration
 
@@ -15,37 +15,37 @@ The application is running on all the repos of this organization with the `OptOu
 
 | Name of setting         | Setting | Description                                                                                                                                                                            |
 | ----------------------- | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Branches enforced       | Yes     | Enforce upstream branches like `main` `develop` `v*.*` → `v0.1`                                                                                                                        |
+| Branches enforced       | Yes     | Enforce upstream branches like `main` `develop` `v*.*` → `v0.1`.                                                                                                                        |
 | Approval required       | Yes     | If required pull request reviews are enabled on the branch, you won't be able to merge changes into the branch until all requirements in the pull request review policy have been met. |
 | Approvals required      | 1       | Approval reviews required to merge changes into a branch.                                                                                                                              |
 | Block Force Push        | Yes     | You won't be able to delete or force push to the branch.                                                                                                                               |
 | Status check required   | Yes     | If required status checks are enabled on the branch, you won't be able to merge changes into the branch until all of the required CI tests pass.                                       |
 | Signed commits required | Yes     | If required commit signing is enabled on a branch, you won't be able to push any commits to the branch that are not signed and verified.                                               |
 
-`Action: issue.`
-`Repositories active: all`
+`Action: issue`
+`Active repositories: public only`
 
 ### Binary artifacts
 
 * No binary artifacts allowed.
 
-`Action: issue.`
-`Repositories active: all`
+`Action: issue`
+`Active repositories: public only`
 
 ### Outside collaborators
 
 * Default push access not allowed, only organization members can push directly to the organization repositories.
 * Default admin access not allowed.
 
-`Action: issue.`
-`Repositories active: all`
+`Action: issue`
+`Active repositories: public only`
 
 ### Security
 
 * `SECURITY.md` not empty file required. 
 
-`Action: issue.`
-`Repositories active: all`
+`Action: issue`
+`Active repositories: public only`
 
 ## Code of conduct
 We welcome everyone to contribute. Make sure you have read the [CODE_OF_CONDUCT][coc] before.
