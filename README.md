@@ -27,14 +27,14 @@ The application is running on all the repos of this organization with the `OptOu
 
 ### Binary artifacts
 
-* No binary artifacts allowed
+* No binary artifacts allowed.
 
 `Action: issue.`
 `Repositories active: all`
 
 ### Outside collaborators
 
-* Default push access allowed.
+* Default push access not allowed, only organization members can push directly to the organization repositories.
 * Default admin access not allowed.
 
 `Action: issue.`
