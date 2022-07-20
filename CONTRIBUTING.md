@@ -2,7 +2,7 @@
 
 First off, thanks for taking the time to contribute, it is encouraging! 🎉🙌
 
-We want to make it as easy as possible to contribute changes that help the [.allstar allstar configuration repo][repo], this is a configuration repo for the good of the kommiters organization so every advice or contribution is well received. There are a few guidelines that we ask contributors to follow so that we can merge your changes quickly.
+We want to make it as easy as possible to contribute changes that help the [.allstar allstar configuration repo][repo], this is a configuration repo for the good of the kommitters organization so every advice or contribution is well received. There are a few guidelines that we ask contributors to follow so that we can merge your changes quickly.
 
 ## Getting started
 

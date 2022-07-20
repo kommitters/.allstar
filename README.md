@@ -1,11 +1,15 @@
-# .allstar
+# kommitters Security Policies
 
-OSPO's policies for adherence to security best practices.
-[Allstar](https://github.com/ossf/allstar) is a security-policy GitHubApp, that continuously monitors organizations for adherence to security best practices, and it is installed in [this organization](https://github.com/kommitters). This repo holds the configuration necessary for all the [policies][policies] with its respective [actions][actions] of allstar in the org.
+<img align="right" src="artwork/kommitters_ospo.jpeg"/>
+<p>&nbsp;</p>
 
-In the [allstar.yaml][allstar_yaml] file we have the general configuration for allstar, like the strategy to be used, the repos to be included or excluded, and some other repo level configurations.
+This repo establishes the kommit's OSPO security policies.
 
-If you need to configure allstar for your own organization you can fork this repo and modify the `yaml` files to match your needs, remember that this repo has to remain with the name `.allstar`, for more information read [Allstar installation][installation_options].
+Allstar is a security-policy GitHub app that continuously monitors organizations for adherence to security best practices. Security violations are reported as issues in the affected repositories.
+
+This README.md file describes in detail policies applied to this organization.
+
+To configure Allstar in your organization, fork this repository and modify the `.yaml` files to match your security policies. Visit the [Allstar installation][installation_options] page for more information.
 
 ## Policy configuration
 
@@ -47,6 +51,8 @@ The application is running on all the repos of this organization with the `OptOu
 `Action: issue`
 `Active repositories: public only`
 
+---
+
 ## Code of conduct
 We welcome everyone to contribute. Make sure you have read the [CODE_OF_CONDUCT][coc] before.
 
@@ -54,19 +60,16 @@ We welcome everyone to contribute. Make sure you have read the [CODE_OF_CONDUCT]
 For information on how to contribute, please refer to our [CONTRIBUTING][contributing] guide.
 
 ## Changelog
-Features and bug fixes are listed in the [CHANGELOG][changelog] file.
+Policies changes are listed in the [CHANGELOG][changelog] file.
 
 ## License
-This library is licensed under an MIT license. See [LICENSE][license] for details.
+This repo is licensed under an MIT license. See [LICENSE][license] for details.
 
 ## Acknowledgements
-Made with 💙 by [kommitters Open Source](https://kommit.co)
+The [OpenSSF organization](https://github.com/ossf), and the [Securing Critical Projects Working Group](https://github.com/ossf/wg-securing-critical-projects).
 
-[actions]: https://github.com/ossf/allstar#actions
-[policies]: https://github.com/ossf/allstar#policies
 [license]: https://github.com/kommitters/.allstar/blob/main/LICENSE
 [coc]: https://github.com/kommitters/.allstar/blob/main/CODE_OF_CONDUCT.md
 [changelog]: https://github.com/kommitters/.allstar/blob/main/CHANGELOG.md
 [contributing]: https://github.com/kommitters/.allstar/blob/main/CONTRIBUTING.md
-[allstar_yaml]: https://github.com/kommitters/.allstar/blob/main/allstar.yaml
 [installation_options]: https://github.com/ossf/allstar#installation-options
